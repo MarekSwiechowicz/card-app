@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EB859AB6F969CB9A0D60B83A5377830 /* Pods-SupercardTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A573036BD8C34C06088D25454E5034F /* Pods-SupercardTests-dummy.m */; };
+		9E075143647A95724E3FEACE0AB514E5 /* Pods-Supercard-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CF8FFC6B233D74F07704CCB13AA451 /* Pods-Supercard-tvOSTests-dummy.m */; };
+		B2FF816676B97E35953D75918D664499 /* Pods-Supercard-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6CF238917DF4B0F0E9AA07E3D390AC /* Pods-Supercard-tvOS-dummy.m */; };
+		B4BD1802FAE1E7878E8BED5C7AD1FE61 /* Pods-Supercard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC23E4AB4B1B5F353D405598A76578B /* Pods-Supercard-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		009D964C604473ECA922D6CA810060FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7804678D67F32B8926A659B865CD9D44;
+			remoteInfo = "Pods-Supercard";
+		};
+		E9EE625FFAFBCC56677FFF1FDF81B8FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EE967C07403D2BF7B6CC0B981BE069D;
+			remoteInfo = "Pods-Supercard-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C81D9B7DD00F16CE117C78C060B043 /* Pods-Supercard-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Supercard-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		078D77A1716C3EC0908EC7C5C6509675 /* Pods-Supercard-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Supercard-tvOSTests-resources.sh"; sourceTree = "<group>"; };
+		09376AD22948289502836DA7AE9B040D /* Pods-Supercard-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Supercard-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		09AD4167C74D6C14C1EA7544B63A3D1F /* Pods-SupercardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SupercardTests.release.xcconfig"; sourceTree = "<group>"; };
+		0D6CF238917DF4B0F0E9AA07E3D390AC /* Pods-Supercard-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Supercard-tvOS-dummy.m"; sourceTree = "<group>"; };
+		286F7660E6900FF40E88F639202C351B /* Pods-Supercard-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Supercard-resources.sh"; sourceTree = "<group>"; };
+		28B984AF8E1E23B3F2BEFBBE6B51887F /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework"; sourceTree = "<group>"; };
+		2E9563630BEC0607780978DD770649A4 /* Pods-Supercard-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Supercard-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		365A3B5093C135C96B83BBA80B25D85A /* Pods-Supercard-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Supercard-tvOS-frameworks.sh"; sourceTree = "<group>"; };
+		3F8AD0E8B5191C76CF53498E472B3AFC /* Pods-SupercardTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SupercardTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		445E9D1372F546E9C39D3F95810D9762 /* Pods-Supercard-tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Supercard-tvOS-resources.sh"; sourceTree = "<group>"; };
+		4605E2E505C1EDF67DB89B2CB2C8C068 /* Pods-Supercard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Supercard.release.xcconfig"; sourceTree = "<group>"; };
+		4A573036BD8C34C06088D25454E5034F /* Pods-SupercardTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SupercardTests-dummy.m"; sourceTree = "<group>"; };
+		4E10ACF3039DD45C13D8F7673ACBFECC /* libPods-Supercard-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Supercard-tvOSTests.a"; path = "libPods-Supercard-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63439CC4A0CCA4F069FE6E1E8AA76227 /* libPods-Supercard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Supercard.a"; path = "libPods-Supercard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6357DA0B19F11F13970F405405A8BB5F /* AppCenterReactNativeShared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterReactNativeShared.framework; path = AppCenterReactNativeShared/AppCenterReactNativeShared.framework; sourceTree = "<group>"; };
+		63D1A593F591EC46C4613276296740DA /* Pods-SupercardTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SupercardTests-resources.sh"; sourceTree = "<group>"; };
+		6C4C1B3ACBE918D0E990092314092C39 /* Pods-Supercard-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Supercard-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73D0EE17CE317416584A4F46C3B06C50 /* Pods-Supercard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Supercard.debug.xcconfig"; sourceTree = "<group>"; };
+		771EE9DD56681EC00BB5EA34C619E252 /* Pods-Supercard-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Supercard-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		78F8D2756754958D9628B306E4CFFB41 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework"; sourceTree = "<group>"; };
+		7CED03B238CD427103DB2072778745F0 /* Pods-Supercard-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Supercard-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F55C0A080FECE6FF5886EA29D2F6991 /* Pods-Supercard-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Supercard-frameworks.sh"; sourceTree = "<group>"; };
+		85501FB8A8954EFDBA9DADAE88808495 /* Pods-SupercardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SupercardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		87958891D7DF760F938D0980117F77D1 /* Pods-Supercard-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Supercard-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93CF8FFC6B233D74F07704CCB13AA451 /* Pods-Supercard-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Supercard-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		ADC23E4AB4B1B5F353D405598A76578B /* Pods-Supercard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Supercard-dummy.m"; sourceTree = "<group>"; };
+		C5DDF7C8914C75A64B4B0A77B2BB6CB9 /* Pods-SupercardTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SupercardTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9C4548BF49789396EB4E1C1FC36E6B4 /* libPods-SupercardTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SupercardTests.a"; path = "libPods-SupercardTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B5B7BAABD868EA09BB7057BF46E066 /* Pods-SupercardTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SupercardTests-frameworks.sh"; sourceTree = "<group>"; };
+		E1A0B4F50EB4E4EF749670AE4D4844EA /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
+		E4DB557F7E024621A235E3A04D51D920 /* Pods-Supercard-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Supercard-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		E5D6290F549201311EF8FA8C0321E62C /* Pods-Supercard-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Supercard-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E79A0071D2EF898050498EDADCB7A58C /* Pods-Supercard-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Supercard-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		EA05D3205DA241E5F02C826809EDC0E0 /* AppCenterPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterPush.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterPush.framework"; sourceTree = "<group>"; };
+		F7666AC40A241C678D3B96030CF691C2 /* libPods-Supercard-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Supercard-tvOS.a"; path = "libPods-Supercard-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9842831EDE8FB3B0625A5223EF432A1 /* Pods-Supercard-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Supercard-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		491A0FABD7B58DA2E467CD25ADDBB04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA19DAA6CBEBA0B2C3DF824B61B44221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C32B15A79874C21AA510BD91143A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61192AE2567B593F71E5051AF800B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CEC81492C87AE86F3B5DA3898FA4064 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F43F514DA7EAA0C7B1DDA4EA2318F18 /* AppCenter */,
+				B3B37DB3C2AB3F4C1C7075DD994C95F5 /* AppCenterReactNativeShared */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2873DC716EFD401E9AA75751A9030597 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28B984AF8E1E23B3F2BEFBBE6B51887F /* AppCenterAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B6EACBC98CF1BCCCCB94B8AB91B47E1 /* Pods-SupercardTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5DDF7C8914C75A64B4B0A77B2BB6CB9 /* Pods-SupercardTests-acknowledgements.markdown */,
+				3F8AD0E8B5191C76CF53498E472B3AFC /* Pods-SupercardTests-acknowledgements.plist */,
+				4A573036BD8C34C06088D25454E5034F /* Pods-SupercardTests-dummy.m */,
+				D8B5B7BAABD868EA09BB7057BF46E066 /* Pods-SupercardTests-frameworks.sh */,
+				63D1A593F591EC46C4613276296740DA /* Pods-SupercardTests-resources.sh */,
+				85501FB8A8954EFDBA9DADAE88808495 /* Pods-SupercardTests.debug.xcconfig */,
+				09AD4167C74D6C14C1EA7544B63A3D1F /* Pods-SupercardTests.release.xcconfig */,
+			);
+			name = "Pods-SupercardTests";
+			path = "Target Support Files/Pods-SupercardTests";
+			sourceTree = "<group>";
+		};
+		3F43F514DA7EAA0C7B1DDA4EA2318F18 /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				9C020A2A5E06D8F470DD148664CC6876 /* Analytics */,
+				474AC2EAB054918F21B6B70B3FD98E7D /* Core */,
+				7335AEC09AABC1369D3DE8B273D7FEAA /* Crashes */,
+				E3CB28B022B6D8808384250825E7C3F9 /* Push */,
+			);
+			name = AppCenter;
+			path = AppCenter;
+			sourceTree = "<group>";
+		};
+		474AC2EAB054918F21B6B70B3FD98E7D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8A2CDFBDDBA8FED75AA43254B3D5072E /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		7335AEC09AABC1369D3DE8B273D7FEAA /* Crashes */ = {
+			isa = PBXGroup;
+			children = (
+				D87E7075F6BF3A23A60DAB5A2A93FFDF /* Frameworks */,
+			);
+			name = Crashes;
+			sourceTree = "<group>";
+		};
+		75917DA859EE6675339D2CC635DBA93A /* Pods-Supercard */ = {
+			isa = PBXGroup;
+			children = (
+				6C4C1B3ACBE918D0E990092314092C39 /* Pods-Supercard-acknowledgements.markdown */,
+				7CED03B238CD427103DB2072778745F0 /* Pods-Supercard-acknowledgements.plist */,
+				ADC23E4AB4B1B5F353D405598A76578B /* Pods-Supercard-dummy.m */,
+				7F55C0A080FECE6FF5886EA29D2F6991 /* Pods-Supercard-frameworks.sh */,
+				286F7660E6900FF40E88F639202C351B /* Pods-Supercard-resources.sh */,
+				73D0EE17CE317416584A4F46C3B06C50 /* Pods-Supercard.debug.xcconfig */,
+				4605E2E505C1EDF67DB89B2CB2C8C068 /* Pods-Supercard.release.xcconfig */,
+			);
+			name = "Pods-Supercard";
+			path = "Target Support Files/Pods-Supercard";
+			sourceTree = "<group>";
+		};
+		7D85DE3FBFD3A13E8D7088AB32C4F2E9 /* Pods-Supercard-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				2E9563630BEC0607780978DD770649A4 /* Pods-Supercard-tvOS-acknowledgements.markdown */,
+				F9842831EDE8FB3B0625A5223EF432A1 /* Pods-Supercard-tvOS-acknowledgements.plist */,
+				0D6CF238917DF4B0F0E9AA07E3D390AC /* Pods-Supercard-tvOS-dummy.m */,
+				365A3B5093C135C96B83BBA80B25D85A /* Pods-Supercard-tvOS-frameworks.sh */,
+				445E9D1372F546E9C39D3F95810D9762 /* Pods-Supercard-tvOS-resources.sh */,
+				E5D6290F549201311EF8FA8C0321E62C /* Pods-Supercard-tvOS.debug.xcconfig */,
+				E79A0071D2EF898050498EDADCB7A58C /* Pods-Supercard-tvOS.release.xcconfig */,
+			);
+			name = "Pods-Supercard-tvOS";
+			path = "Target Support Files/Pods-Supercard-tvOS";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				1CEC81492C87AE86F3B5DA3898FA4064 /* Pods */,
+				8169385473D920E2E966A35B64E917B5 /* Products */,
+				B841605BABF3D91E481810439733C693 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8169385473D920E2E966A35B64E917B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63439CC4A0CCA4F069FE6E1E8AA76227 /* libPods-Supercard.a */,
+				F7666AC40A241C678D3B96030CF691C2 /* libPods-Supercard-tvOS.a */,
+				4E10ACF3039DD45C13D8F7673ACBFECC /* libPods-Supercard-tvOSTests.a */,
+				C9C4548BF49789396EB4E1C1FC36E6B4 /* libPods-SupercardTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A2CDFBDDBA8FED75AA43254B3D5072E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1A0B4F50EB4E4EF749670AE4D4844EA /* AppCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C535005FD8E4D36DE56D0BCA081F85D /* Pods-Supercard-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				09376AD22948289502836DA7AE9B040D /* Pods-Supercard-tvOSTests-acknowledgements.markdown */,
+				87958891D7DF760F938D0980117F77D1 /* Pods-Supercard-tvOSTests-acknowledgements.plist */,
+				93CF8FFC6B233D74F07704CCB13AA451 /* Pods-Supercard-tvOSTests-dummy.m */,
+				E4DB557F7E024621A235E3A04D51D920 /* Pods-Supercard-tvOSTests-frameworks.sh */,
+				078D77A1716C3EC0908EC7C5C6509675 /* Pods-Supercard-tvOSTests-resources.sh */,
+				04C81D9B7DD00F16CE117C78C060B043 /* Pods-Supercard-tvOSTests.debug.xcconfig */,
+				771EE9DD56681EC00BB5EA34C619E252 /* Pods-Supercard-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-Supercard-tvOSTests";
+			path = "Target Support Files/Pods-Supercard-tvOSTests";
+			sourceTree = "<group>";
+		};
+		9C020A2A5E06D8F470DD148664CC6876 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				2873DC716EFD401E9AA75751A9030597 /* Frameworks */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		B3B37DB3C2AB3F4C1C7075DD994C95F5 /* AppCenterReactNativeShared */ = {
+			isa = PBXGroup;
+			children = (
+				C0409D3F50AA40A51EE0FF9BD95D9139 /* Frameworks */,
+			);
+			name = AppCenterReactNativeShared;
+			path = AppCenterReactNativeShared;
+			sourceTree = "<group>";
+		};
+		B841605BABF3D91E481810439733C693 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75917DA859EE6675339D2CC635DBA93A /* Pods-Supercard */,
+				7D85DE3FBFD3A13E8D7088AB32C4F2E9 /* Pods-Supercard-tvOS */,
+				8C535005FD8E4D36DE56D0BCA081F85D /* Pods-Supercard-tvOSTests */,
+				3B6EACBC98CF1BCCCCB94B8AB91B47E1 /* Pods-SupercardTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0409D3F50AA40A51EE0FF9BD95D9139 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6357DA0B19F11F13970F405405A8BB5F /* AppCenterReactNativeShared.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6FFA9EF6598188A2EB042646962F9A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA05D3205DA241E5F02C826809EDC0E0 /* AppCenterPush.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D87E7075F6BF3A23A60DAB5A2A93FFDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78F8D2756754958D9628B306E4CFFB41 /* AppCenterCrashes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3CB28B022B6D8808384250825E7C3F9 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				D6FFA9EF6598188A2EB042646962F9A5 /* Frameworks */,
+			);
+			name = Push;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C236CEF8D92C93AD86B645142474E25 /* Pods-SupercardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B077332CD3234BB4E32BAE8027649A54 /* Build configuration list for PBXNativeTarget "Pods-SupercardTests" */;
+			buildPhases = (
+				0B7680738609F71B7C94A13CB76A1F98 /* Sources */,
+				491A0FABD7B58DA2E467CD25ADDBB04E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D1DEDF49922227C2CD77A7BD49AA08E /* PBXTargetDependency */,
+			);
+			name = "Pods-SupercardTests";
+			productName = "Pods-SupercardTests";
+			productReference = C9C4548BF49789396EB4E1C1FC36E6B4 /* libPods-SupercardTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5429283EAE777DE7E6ED0E5E8F76455B /* Pods-Supercard-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA36F983DF1EECE6A9F406128B5B48AA /* Build configuration list for PBXNativeTarget "Pods-Supercard-tvOSTests" */;
+			buildPhases = (
+				C0956A8964E18AF985A56CC6C0CF326B /* Sources */,
+				F61192AE2567B593F71E5051AF800B09 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				480D8CD305AA7BD18E2C7F9EBFA51DBE /* PBXTargetDependency */,
+			);
+			name = "Pods-Supercard-tvOSTests";
+			productName = "Pods-Supercard-tvOSTests";
+			productReference = 4E10ACF3039DD45C13D8F7673ACBFECC /* libPods-Supercard-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5EE967C07403D2BF7B6CC0B981BE069D /* Pods-Supercard-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F0D6E408E2A098D8C78DFF75410A01 /* Build configuration list for PBXNativeTarget "Pods-Supercard-tvOS" */;
+			buildPhases = (
+				0E61F28AA7297529EBD25DFC11A25B3E /* Sources */,
+				E7C32B15A79874C21AA510BD91143A8B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Supercard-tvOS";
+			productName = "Pods-Supercard-tvOS";
+			productReference = F7666AC40A241C678D3B96030CF691C2 /* libPods-Supercard-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7804678D67F32B8926A659B865CD9D44 /* Pods-Supercard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25AAA07BCD128BC2E4CC4B95BD68E4C /* Build configuration list for PBXNativeTarget "Pods-Supercard" */;
+			buildPhases = (
+				C514F9BD9DAAF5FA88D62B89F6A1273B /* Sources */,
+				BA19DAA6CBEBA0B2C3DF824B61B44221 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Supercard";
+			productName = "Pods-Supercard";
+			productReference = 63439CC4A0CCA4F069FE6E1E8AA76227 /* libPods-Supercard.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8169385473D920E2E966A35B64E917B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7804678D67F32B8926A659B865CD9D44 /* Pods-Supercard */,
+				5EE967C07403D2BF7B6CC0B981BE069D /* Pods-Supercard-tvOS */,
+				5429283EAE777DE7E6ED0E5E8F76455B /* Pods-Supercard-tvOSTests */,
+				2C236CEF8D92C93AD86B645142474E25 /* Pods-SupercardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B7680738609F71B7C94A13CB76A1F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB859AB6F969CB9A0D60B83A5377830 /* Pods-SupercardTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E61F28AA7297529EBD25DFC11A25B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FF816676B97E35953D75918D664499 /* Pods-Supercard-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0956A8964E18AF985A56CC6C0CF326B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E075143647A95724E3FEACE0AB514E5 /* Pods-Supercard-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C514F9BD9DAAF5FA88D62B89F6A1273B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4BD1802FAE1E7878E8BED5C7AD1FE61 /* Pods-Supercard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D1DEDF49922227C2CD77A7BD49AA08E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Supercard";
+			target = 7804678D67F32B8926A659B865CD9D44 /* Pods-Supercard */;
+			targetProxy = 009D964C604473ECA922D6CA810060FE /* PBXContainerItemProxy */;
+		};
+		480D8CD305AA7BD18E2C7F9EBFA51DBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Supercard-tvOS";
+			target = 5EE967C07403D2BF7B6CC0B981BE069D /* Pods-Supercard-tvOS */;
+			targetProxy = E9EE625FFAFBCC56677FFF1FDF81B8FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		163E8BB954D83B3422D6A5FC63229E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D6290F549201311EF8FA8C0321E62C /* Pods-Supercard-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		1EA8CDCA49D5A280A3417B7878BFF5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2C2627C25420935D0B4FFB17B9FDABAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E79A0071D2EF898050498EDADCB7A58C /* Pods-Supercard-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		519EEE34771EB996C939D07D5A5D4362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04C81D9B7DD00F16CE117C78C060B043 /* Pods-Supercard-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		56B920DEA6A019035CDF532B52C77AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09AD4167C74D6C14C1EA7544B63A3D1F /* Pods-SupercardTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A0490787CAEFF5F0B191626248A5832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85501FB8A8954EFDBA9DADAE88808495 /* Pods-SupercardTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68DDAEC64CDFA023BCE686EF9FDEDDB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4605E2E505C1EDF67DB89B2CB2C8C068 /* Pods-Supercard.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78CCF2F8575642B0F9526268F670DF6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		BB1BCF83FA25578C4A42CC35516CA226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73D0EE17CE317416584A4F46C3B06C50 /* Pods-Supercard.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8A17B914531EFB1D93C2BA835CDCBC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 771EE9DD56681EC00BB5EA34C619E252 /* Pods-Supercard-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA8CDCA49D5A280A3417B7878BFF5DD /* Debug */,
+				78CCF2F8575642B0F9526268F670DF6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F0D6E408E2A098D8C78DFF75410A01 /* Build configuration list for PBXNativeTarget "Pods-Supercard-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163E8BB954D83B3422D6A5FC63229E35 /* Debug */,
+				2C2627C25420935D0B4FFB17B9FDABAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA36F983DF1EECE6A9F406128B5B48AA /* Build configuration list for PBXNativeTarget "Pods-Supercard-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				519EEE34771EB996C939D07D5A5D4362 /* Debug */,
+				E8A17B914531EFB1D93C2BA835CDCBC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B077332CD3234BB4E32BAE8027649A54 /* Build configuration list for PBXNativeTarget "Pods-SupercardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A0490787CAEFF5F0B191626248A5832 /* Debug */,
+				56B920DEA6A019035CDF532B52C77AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25AAA07BCD128BC2E4CC4B95BD68E4C /* Build configuration list for PBXNativeTarget "Pods-Supercard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1BCF83FA25578C4A42CC35516CA226 /* Debug */,
+				68DDAEC64CDFA023BCE686EF9FDEDDB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
