@@ -9,8 +9,7 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "reverse": "adb reverse tcp:8081 tcp:8081",
     "test": "jest",
-    "dev": "yarn kill-8081 && concurrently \"yarn start -- --reset-cache\" \"yarn run-android \" \"yarn reverse\"",
-    "postinstall": "postinstall"
+    "dev": "yarn kill-8081 && concurrently \"yarn start -- --reset-cache\" \"yarn run-android \" \"yarn reverse\""
   },
   "rnpm": {
     "assets": [
